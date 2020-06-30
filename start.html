@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tailwind</title>
+    <!-- meta:vp -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="container mx-auto px-4 flex justify-between py-2 items-center">
+            <h1 class="text-xl">Start Bootstrap</h1>
+            <a class="text-base bg-blue-500 text-white px-2 py-1 rounded hover:bg-blue-800 transition ease-in-out duration-200" href="#">Sign In</a>
+        </div>
+    </header>
+    <section class="landing">
+        <div class="flex flex-col justify-center items-center mx-auto py-20 sm:py-40">
+            <h1 class="text-center text-white mx-auto px-12 sm:px-24 text-2xl sm:text-4xl" style="max-width: 50rem">Build a landing page for your business or proyect and generate more
+            leads</h1>
+            <form>
+                <div class="flex items-center py-2">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mr-2"
+                           type="text" placeholder="Enter your email..." aria-label="Full name">
+                    <button class="flex-shrink-0 bg-blue-500 hover:bg-blue-800 border-blue-500 hover:border-blue-800 text-sm border-4 text-white py-1 px-2 rounded ransition ease-in-out duration-200"
+                            type="button">
+                        Sign Up
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="caracteristicas h-auto py-20 bg-gray-100">
+        <div class="caracteristicas__contenido mx-auto flex justify-center items-center text-center flex-col sm:flex-row">
+            <div class="caracteristicas__columna w-64 flex flex-col items-center m-4">
+                <img src="img/escritorio.png" alt="Monitor" class="caracteristicas__icono">
+                <h2 class="caracteristicas__titulo font-bold text-2xl">Fully Responsive</h2>
+                <p class="iconos__descripcion font-light text-gray-600">This theme will look great on any device, no matter the size!</p>
+            </div>
+            <div class="caracteristicas__columna w-64 flex flex-col items-center m-4">
+                <img src="img/capas.png" alt="UI" class="caracteristicas__icono">
+                <h2 class="caracteristicas__titulo font-bold text-2xl">Bootstrap 4 Ready</h2>
+                <p class="iconos__descripcion font-light text-gray-600">Featuring he latest build of the new Bootstrap 4 framework!</p>
+            </div>
+            <div class="caracteristicas__columna w-64 flex flex-col items-center m-4">
+                <img src="img/check.png" alt="Check" class="caracteristicas__icono">
+                <h2 class="caracteristicas__titulo font-bold text-2xl">Easy to use</h2>
+                <p class="iconos__descripcion font-light text-gray-600">Ready to use with your own content, or customize the source files!</p>
+            </div>
+        </div>
+    </section>
+    <section class="descripcion">
+        <div class="descripcion__contenido grid grid-cols-2 grid-rows-3">
+            <div class="descripcion__texto row-start-1 row-end-2 col-start-1 col-end-2 flex flex-col justify-center px-8 py-16 sm:py-32">
+                <h2 class="descripcion__titulo font-bold text-2xl text-left">Fully Responsive Design</h2>
+                <p class="descripion__detalles font-light text-gray-600 text-left">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+            </div>
+            <div class="descipcion__imagen row-start-1 row-end-2 col-start-2 col-end-3">
+                <img src="img/iphone.jpg" alt="Iphone" class="descripcion__imagen-foto object-cover w-full h-full">
+            </div>
+            <div class="descipcion__imagen row-start-2 row-end-3  col-start-1 col-end-2">
+                <img src="img/code.jpg" alt="Editor de textos" class="descripcion__imagen-foto object-cover w-full h-full">
+            </div>
+            <div class="descripcion__texto row-start-2 row-end-3  col-start-2 col-end-3 flex flex-col justify-center px-8 py-16 sm:py-32">
+                <h2 class="descripcion__titulo font-bold text-2xl text-left">Updated for Bootstrap 4</h2>
+                <p class="descripion__detalles font-light text-gray-600 text-left">Newly improved and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+            </div>
+            <div class="descripcion__texto row-start-3 row-end-4  col-start-1 col-end-2 flex flex-col justify-center px-8 py-16 sm:py-32">
+                <h2 class="descripcion__titulo font-bold text-2xl text-left">Easy to Use & Customize</h2>
+                <p class="descripion__detalles font-light text-gray-600 text-left">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+            </div>
+            <div class="descipcion__imagen row-start-3 row-end-4  col-start-2 col-end-3">
+                <img src="img/easy.jpg" alt="Iphone" class="descripcion__imagen-foto object-cover w-full h-full">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
